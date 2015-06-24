@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre" />
+    
+    <EditText 
+        android:id="@+id/ET_Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+    
+    <EditText 
+        android:id="@+id/ET_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono" />
+    
+    <EditText 
+        android:id="@+id/ET_Telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+    
+    <Button 
+        android:id="@+id/Bt_Insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insertar" 
+        />
+    
+    <Button 
+        android:id="@+id/Bt_Consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consultar" 
+        android:onClick="consultar"/>
+    
+</LinearLayout>
